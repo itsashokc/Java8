@@ -15,7 +15,7 @@ public class ListSorting {
 		return data;
 	}
 	public ListSorting() {
-		MoviesInterface fn = Movie::new;
+		MoviesInterface fn = Movie::new;      
 		data.add(fn.apply("Test1", "true", "9.1"));
 		data.add(fn.apply("Test2", "false", "8.2"));
 		data.add(fn.apply("Test3", "true", "8.8"));
